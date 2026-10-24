@@ -1,0 +1,5 @@
+{
+  "hidedurabilitybar.configuration.title": "Hide Durability Bar",
+  "hidedurabilitybar.configuration.hideDurabilityBar": "Hide durability bar",
+  "hidedurabilitybar.configuration.hideDurabilityBar.tooltip": "If enabled, the durability bar is not drawn on items."
+}

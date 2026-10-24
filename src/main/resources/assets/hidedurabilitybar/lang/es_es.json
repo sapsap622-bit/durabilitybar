@@ -1,0 +1,5 @@
+{
+  "hidedurabilitybar.configuration.title": "Ocultar barra de durabilidad",
+  "hidedurabilitybar.configuration.hideDurabilityBar": "Ocultar barra de durabilidad",
+  "hidedurabilitybar.configuration.hideDurabilityBar.tooltip": "Si está activado, no se dibuja la barra de durabilidad sobre los ítems."
+}

@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "hidedurabilitybar"
+version = "1.0.0"
+displayName = "Hide Durability Bar"
+authors = "Basado en Custom Durability Bar de leafs4n (MIT)"
+description = '''
+Oculta visualmente la barra de durabilidad (la verde) de los ítems.
+Se puede activar/desactivar en Mods > Hide Durability Bar > Config.
+'''
+
+[[mixins]]
+config = "hidedurabilitybar.mixins.json"
+
+[[dependencies.hidedurabilitybar]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.hidedurabilitybar]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "CLIENT"
